@@ -1,0 +1,443 @@
+{
+  // "lazyCodeLoading": "requiredComponents",
+  "pages": [
+    // pages数组第一项表示应用启动页
+    {
+      "path": "pages/homePage/homepage",
+      "style": {
+        // 自定义导航
+        "navigationBarTitleText": "首页",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/homePage/noDataPage",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/homePage/searchResult",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "搜索",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "dark",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/myOrder/myOrder",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "我的订单",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 150
+      }
+    },
+
+    {
+      "path": "pages/shoppingCart/ShoppingCart",
+      "style": {
+        "navigationBarTitleText": "购物车",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#f7f7f5"
+      }
+    },
+    {
+      "path": "pages/memberCenter/memberCenter",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FEE9A9"
+      }
+    },
+    {
+      "path": "pages/memberCenter/collectPage",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "收藏",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/personalInformation/personalInformation",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "个人资料"
+      }
+    },
+    {
+      "path": "pages/memberCenter/personalInformation/alterNikename",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "修改昵称"
+      }
+    },
+    {
+      "path": "pages/memberCenter/resetPassword",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "重置密码"
+      }
+    },
+    {
+      "path": "pages/memberCenter/alertPhoneNumber",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "更换绑定手机号"
+      }
+    },
+    {
+      "path": "pages/homePage/goodsDetail",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/classification/classification",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/shoppingCart/paySuccess",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "提交成功"
+      }
+    },
+    {
+      "path": "pages/shoppingCart/commitSuccess",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "支付成功"
+      }
+    },
+    {
+      "path": "pages/memberCenter/address/address",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "收货地址"
+      }
+    },
+    {
+      "path": "pages/memberCenter/address/addAddress",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "添加收货地址"
+      }
+    },
+    {
+      "path": "pages/shoppingCart/confirmOrder",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "确认订单"
+      }
+    },
+    {
+      "path": "pages/shoppingCart/paymentMethod",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "确认订单"
+      }
+    },
+    {
+      "path": "pages/loginInterface/passwordLogin",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/loginInterface/resetPassword",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/loginInterface/registerPage",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "注册界面"
+      }
+    },
+    {
+      "path": "pages/loginInterface/loginInterface",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "手机号登录界面"
+      }
+    },
+    {
+      "path": "pages/homePage/searchPage",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "搜索"
+      }
+    },
+    {
+      "path": "pages/memberCenter/invoice/alertInvoice",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "发票中心",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#f7f7f5"
+      }
+    },
+    {
+      "path": "pages/memberCenter/findMe",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/loginInterface/registerProtocol/registerProtocol",
+      "style": {
+        "navigationBarTitleText": "注册协议",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/loginInterface/privacyAgreement/privacyAgreement",
+      "style": {
+        "navigationBarTitleText": "隐私条款",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/homePage/reviewsPage",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/integralPage/integralPage",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/integralPage/integralDetails",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/memberCenter/integralPage/integralEXP",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/integralPage/confirmOrder",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/commentPage/commentPage",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/commentPage/addComment",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/homePage/newsPage",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/homePage/newsDetails",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/homePage/couponList",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/memberCenter/myCoupon",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/couponsPage/couponsPage",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/returnsExchanges/returnsPage",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/returnsExchanges/exchangesPage",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/myOrder/returnsExchanges",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/myOrder/commentList",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "onReachBottomDistance": 150
+      }
+    },
+    {
+      "path": "pages/memberCenter/returnsExchanges/logisticsInformation",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/memberCenter/returnsExchanges/deliveryPage",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/memberCenter/myOrder/orderDetail",
+      "style": {
+        // 自定义导航
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "订单详情"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#FFFEFF",
+    "backgroundColor": "#FFFEFF"
+  },
+  "tabBar": {
+    "color": "#757575",
+    "selectedColor": "#1C9B64",
+    "zIndex": "9",
+    "fontSize": "12px",
+    "iconWidth": "17px",
+    "height": "60px",
+    "list": [
+      {
+        "pagePath": "pages/homePage/homepage",
+        "iconPath": "static/tabbar/home-o.png",
+        "selectedIconPath": "static/tabbar/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "iconPath": "static/tabbar/classify-o.png",
+        "selectedIconPath": "static/tabbar/classify.png",
+        "text": "全部分类"
+      },
+      {
+        "pagePath": "pages/shoppingCart/ShoppingCart",
+        "iconPath": "static/tabbar/shopcar-o.png",
+        "selectedIconPath": "static/tabbar/shopcar.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/memberCenter/memberCenter",
+        "iconPath": "static/tabbar/member-o.png",
+        "selectedIconPath": "static/tabbar/member.png",
+        "text": "用户中心"
+      }
+    ]
+  }
+}
