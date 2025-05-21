@@ -4,7 +4,7 @@
 
 # 此项目是商城系统的客户端源代码，采用uni-app进行开发
 
-# 查看管理员Element源码 [查看](https://gitee.com/yixiekeji/b2cadmin)(<https://gitee.com/yixiekeji/b2cadmin>)
+# 查看管理员Element源码 [查看](https://github.com/yixiekeji/b2cadmin)(<https://github.com/yixiekeji/b2cadmin>)
 
 ***
 
